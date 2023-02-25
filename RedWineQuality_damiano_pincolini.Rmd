@@ -99,14 +99,14 @@ library("xgboost") # for X Gradient Boosting model
 ```
 
 
-## Loading Data
+## Loading data
 
-IMPORTANT NOTE: since it is not possible to download any dataset from Kaggle without
-providing account credentials to other graders,
-the following code simply load the dataset in R from my laptop where it has previuosly
-been saved.
-In the reference section, the first link allows to land on the kaggle's page where it is
-possibile to download the dataset I have used. 
+IMPORTANT NOTE:  
+1. The dataset is contained in the wineQualityReds csv file which can be downloaded on
+the following [**github repository**](https://github.com/damianopincolini/Red-Wine-Quality):
+https://github.com/damianopincolini/Red-Wine-Quality  
+2. As an alternative, since it is not allowed to download any dataset from Kaggle without
+providing account credentials to other graders, in the reference section, the first link allows to land on the kaggle's page where it is possibile to download the dataset.  
 
 ```{r message=FALSE}
 wines <- read_csv("wineQualityReds.csv")
@@ -690,7 +690,7 @@ machine learning method would replace the supervised approach of the regression.
  
 # REFERENCES
 
-- Dataset "Redwinequality" Kaggle [link] (https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/code?datasetId=4458&language=R)
+- Dataset "Redwinequality" Kaggle [**link**](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/code?datasetId=4458&language=R): https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/code?datasetId=4458&language=R.
 - P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis,
 "Modeling wine preferences by data mining from physicochemical properties".
 "Decision Support Systems", Elsevier (http://dx.doi.org/10.1016/j.dss.2009.05.016)
